@@ -8,14 +8,14 @@ namespace tugas
     {
         //properties
         public string nama { get; set; }
-        public Boolean OnDuty { get; set; }
+        public string OnDuty { get; set; }
         public string no_penumpang { get; set; }
 
         //Method
         public void Info()
         {
             Console.WriteLine("Nama Driver: {0}", nama);
-            Console.WriteLine("On Duty: {0}", true);
+            Console.WriteLine("On Duty: {0}", OnDuty);
             Console.WriteLine("Number Of Passenger: {0}", no_penumpang);
         }
         public void PickUp()

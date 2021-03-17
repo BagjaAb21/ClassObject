@@ -11,7 +11,7 @@ namespace tugas
 
             // mengeset nilai properties objek saya dan kamu
             driver.nama = "Ramapatuh";
-            driver.OnDuty = true;
+            driver.OnDuty = "YES";
             driver.no_penumpang = "10";
 
             //pemanggilan method
