@@ -11,13 +11,14 @@ namespace tugas
 
             // mengeset nilai properties objek saya dan kamu
             driver.nama = "Ramapatuh";
-            driver.status = "Yes";
+            driver.OnDuty = true;
             driver.no_penumpang = "10";
 
             //pemanggilan method
 
-            driver.Data();
-            driver.Status();
+            driver.Info();
+            driver.PickUp();
+            driver.DropOff();
 
             Console.ReadKey();
         }
