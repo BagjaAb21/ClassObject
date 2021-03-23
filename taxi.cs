@@ -4,18 +4,19 @@ using System.Text;
 
 namespace tugas
 {
-    public class taxi : taxiBase
+    public class taxi 
     {
         //properties
         public string nama { get; set; }
-        public string OnDuty { get; set; }
+        public bool OnDuty { get; set; }
         public string no_penumpang { get; set; }
 
         //Method
         public void Info()
         {
             Console.WriteLine("Nama Driver: {0}", nama);
-            Console.WriteLine("On Duty: {0}", OnDuty);
+            if (OnDuty) Console.WriteLine("On Duty: YES");
+            else Console.WriteLine("On Duty: YES");
             Console.WriteLine("Number Of Passenger: {0}", no_penumpang);
         }
         public void PickUp()
